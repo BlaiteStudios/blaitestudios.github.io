@@ -1,0 +1,273 @@
+body {
+  background: linear-gradient(to bottom, #8b0000 0%, #ff8c00 100%);
+  font-family: 'Comic Sans MS', sans-serif;
+  background-attachment: fixed;
+}
+
+header .logo-container h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #FFA07A;
+}
+
+.logo-container img {
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+}
+
+.logo-container h1 {
+	font-size: 32px;
+	color: #FFA500;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: transparent;
+	padding: 10px;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+.logo-container img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+nav {
+	padding: 0 50px; /* Agregamos padding para dar separación */
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none; /* Quitamos los puntos de la lista de enlaces */
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #ff8c00;
+}
+
+section {
+	padding: 50px;
+	text-align: center;
+	color: white;
+}
+
+#banner {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  background-image: url('../img/banner.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button {
+  font-family: 'Comic Sans MS', sans-serif;
+  border: none;
+  background-color: #FFA500;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff8c00;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.game-container {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.back-button {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 50px;
+  background-color: #FFA500;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(to bottom, #8b0000 0%, #ff8c00 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ff8c00;
+}
+
+/* Estilos de la barra superior */
+header.game {
+  background: linear-gradient(to bottom, #8b0000 0%, #ff8c00 100%);
+  font-family: 'Comic Sans MS', sans-serif;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+}
+
+header.game .logo-container h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #FFA07A;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-container h1 {
+  font-size: 32px;
+  color: #FFA500;
+  margin: 0;
+}
+
+nav {
+  padding: 0 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff8c00;
+}
+
+.back-button {
+  background: none;
+  color: #FFF;
+}
+
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+section {
+  padding: 50px;
+  text-align: center;
+  color: white;
+  position: relative; /* Agregamos position relative */
+}
+
+.game-container {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.game-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-button {
+  margin-right: 20px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+
+.btn-center {
+  text-align: center;
+}
+
+.btn-center a {
+  display: inline-block;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
